@@ -8,6 +8,8 @@ This repo is organized as follows:
 * `app-cli` - This directory is a standard vue cli app
   * The `lib-vite-0.0.0.tgz` created by the `lib-vite` build/pack process is copied into this directory and installed into the app
 
+The library and the sample apps use the default output from `npm init vite` or `vue create`. The library uses the recommended configuration from [the vite docs](https://vitejs.dev/guide/build.html#library-mode) for library mode.
+
 ## Reproducing the bug
 __Setup__
 
