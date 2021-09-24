@@ -1,0 +1,17 @@
+{
+  "name": "app-vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "lib-vite": "file:lib-vite-0.0.0.tgz",
+    "vue": "^3.2.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.1",
+    "vite": "^2.6.0-beta.2"
+  }
+}
