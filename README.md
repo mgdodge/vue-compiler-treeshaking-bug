@@ -1,7 +1,7 @@
 # Vue 3 tree-shaking bug
 
 This repo is organized as follows:
-* `lib-vite` - This directory is the source for what should be a tree-shakeable component. It uses [vite 2.6.0-beta.w](https://github.com/vitejs/vite/tree/v2.6.0-beta.2) in `library mode` to create the library package
+* `lib-vite` - This directory is the source for what should be a tree-shakeable component. It uses [vite 2.6.0-beta.2](https://github.com/vitejs/vite/tree/v2.6.0-beta.2) in `library mode` to create the library package
   * Running `npm run build && npm pack` here results in an installable npm module, `lib-vite-0.0.0.tgz`
 * `app-vite` - This directory is a standard vite app, which uses `lib-vite`
   * The `lib-vite-0.0.0.tgz` created by the `lib-vite` build/pack process is copied into this directory and installed into the app
