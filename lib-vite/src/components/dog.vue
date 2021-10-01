@@ -1,7 +1,7 @@
 <script>
 import { defineComponent } from 'vue';
 
-export default defineComponent({
+export default /*#__PURE__*/defineComponent({
   name: 'Dog', // vue component name
   props: {
     name: {

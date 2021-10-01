@@ -10,8 +10,8 @@
     "vue": "^3.2.13"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.9.1",
-    "vite": "^2.6.0-beta.2"
+    "@vitejs/plugin-vue": "^1.9.2",
+    "vite": "^2.6.2"
   },
   "files": [
     "dist"
